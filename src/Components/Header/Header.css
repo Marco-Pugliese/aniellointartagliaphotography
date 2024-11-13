@@ -1,0 +1,27 @@
+#MyHeader {
+  position: sticky;
+  min-height: 10vh;
+  padding: 15px 5px;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+}
+.selectedPage {
+  text-decoration: underline !important;
+  text-decoration-thickness: 1.25px !important;
+  font-size: 1.1em;
+}
+.transition {
+  transition: all 0.4s linear;
+}
+
+@media screen and (max-width: 990px) {
+  .m-variable {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 991px) {
+  .m-variable {
+    margin-left: auto;
+  }
+}

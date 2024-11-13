@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Faculty+Glyphic&family=Handlee&family=Italianno&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Petit+Formal+Script&family=Reenie+Beanie&display=swap");
+@import "./Components/Header/Header.css";
+@import "./Components/LandingPage/LandingPage.css";
+:root {
+  /* FONTS */
+  --font-1: "Montserrat", sans-serif;
+  --font-2: "Faculty Glyphic", sans-serif;
+  --font-3: "Charmonman", cursive;
+  /* --cursive: "Reenie Beanie", cursive; */
+  /* --cursive: "Handlee", cursive; */
+  --cursive: "Italianno", cursive;
+  /* --cursive: "Petit Formal Script", cursive; */
+  /* COLOURS */
+}
+.text-1 {
+  font-family: var(--font-1);
+}
+.text-2 {
+  font-family: var(--font-2);
+}
+.text-3 {
+  font-family: var(--font-3);
+}
+.cursive {
+  font-family: var(--cursive);
+  font-size: 2em;
+}
+.cursive-2 {
+  font-family: var(--cursive-2);
+}
