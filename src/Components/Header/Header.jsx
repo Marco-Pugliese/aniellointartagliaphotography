@@ -23,10 +23,7 @@ const Header = () => {
           </Link>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse
-            id="basic-navbar-nav"
-            className="d-flex align-items-center justify-content-center"
-          >
+          <Navbar.Collapse id="basic-navbar-nav" className="">
             <Nav className="m-variable">
               <Link
                 className="nav-link p-0 px-3  d-flex align-items-center justify-content-center"
