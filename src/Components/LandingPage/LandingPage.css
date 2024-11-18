@@ -1,7 +1,48 @@
 #LandingPage {
-  height: 90vh;
+  min-height: 90vh;
   display: flex;
 }
+
 .sizeH {
   height: 20vh;
+}
+.bg-foto1 {
+  background: url(../../../public/assets/images/bgFoto-1.avif);
+  background-position: center;
+}
+.bg-foto2 {
+  background: url(../../../public/assets/images/bgFoto-2.avif);
+  background-position: center;
+}
+.bg-foto3 {
+  background: url(../../../public/assets/images/bgFoto-3.avif);
+  background-position: center;
+}
+.bg-foto4 {
+  background: url(../../../public/assets/images/bgFoto-4.avif);
+}
+.bg-foto1:hover,
+.bg-foto2:hover,
+.bg-foto3:hover,
+.bg-foto4:hover {
+  filter: grayscale(1);
+  background-size: 115%;
+}
+.bg-foto1,
+.bg-foto2,
+.bg-foto3,
+.bg-foto4 {
+  transition: all 0.8s;
+  background-size: 100%;
+  background-position: center;
+
+  animation: fadeIn 1.2s ease-in-out both;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

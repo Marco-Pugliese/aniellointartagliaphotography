@@ -1,0 +1,22 @@
+#AboutMe {
+  background: linear-gradient(to bottom left, black, #010208, black);
+  background: #010208;
+  /* background: #000000; */
+}
+#bg-AboutMe {
+  background: url(../../../public/assets/images/anielloPhotographer.jpg);
+  background-repeat: no-repeat;
+
+  background-size: 850px;
+  /* width: 100%; */
+  background-position: bottom left;
+}
+.bg-aniedd {
+  background: url(../../../public/assets/images/anielloPhotographer.jpg);
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.vh-15 {
+  min-height: 15vh;
+}

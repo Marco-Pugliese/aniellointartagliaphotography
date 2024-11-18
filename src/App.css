@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Faculty+Glyphic&family=Handlee&family=Italianno&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Petit+Formal+Script&family=Reenie+Beanie&display=swap");
 @import "./Components/Header/Header.css";
 @import "./Components/LandingPage/LandingPage.css";
+@import "./Components/AboutMePage/AboutMe.css";
 :root {
   /* FONTS */
   --font-1: "Montserrat", sans-serif;
