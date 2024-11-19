@@ -1,16 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&family=Faculty+Glyphic&family=Handlee&family=Italianno&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Petit+Formal+Script&family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Charm:wght@400;700&family=Explora&family=Faculty+Glyphic&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Bengali:wght@100..900&family=Tangerine:wght@400;700&display=swap");
 @import "./Components/Header/Header.css";
 @import "./Components/LandingPage/LandingPage.css";
 @import "./Components/AboutMePage/AboutMe.css";
+@import "./animation.css";
 :root {
   /* FONTS */
   --font-1: "Montserrat", sans-serif;
   --font-2: "Faculty Glyphic", sans-serif;
-  --font-3: "Charmonman", cursive;
-  /* --cursive: "Reenie Beanie", cursive; */
-  /* --cursive: "Handlee", cursive; */
-  --cursive: "Italianno", cursive;
-  /* --cursive: "Petit Formal Script", cursive; */
+  --font-3: "Explora", serif;
+  --cursive: "Noto Serif Bengali", serif;
+  --cursive-2: "Bonheur Royale", cursive;
+  --cursive-2: "Charm", cursive;
+  --cursive-2: "Explora", serif;
+  /* --cursive-2: "Tangerine", cursive; */
+  /* --cursive: "Noto Sans", sans-serif; */
   /* COLOURS */
 }
 .text-1 {
@@ -24,8 +27,13 @@
 }
 .cursive {
   font-family: var(--cursive);
-  font-size: 2em;
+  font-size: 1.3em;
 }
 .cursive-2 {
   font-family: var(--cursive-2);
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 5px rgba(128, 128, 128, 0.829);
+}
+.ls-1 {
+  letter-spacing: 0.06em;
 }

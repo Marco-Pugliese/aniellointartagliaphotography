@@ -1,5 +1,4 @@
 import { Col, Row } from "react-bootstrap";
-import Logo from "../Header/Logo";
 import {
   EnvelopeAtFill,
   Facebook,
@@ -8,6 +7,7 @@ import {
   Whatsapp,
 } from "react-bootstrap-icons";
 import DedicateTo from "./DedicateTo";
+import Logo2 from "../Header/Logo2";
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="border-top p-0 m-0 shadow-lg">
         <Row className="w-100 align-items-center">
           <Col className="p-5 col-12 col-xl-6 d-flex justify-content-center justify-content-xl-start align-items-center">
-            <Logo />
+            <Logo2 />
           </Col>
           <Col className="d-flex col-12 col-xl-6 py-3  flex-column align-items-xl-start justify-content-center fs-5 text-secondary">
             <div className="px-5 py-1">

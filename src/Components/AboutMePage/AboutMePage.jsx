@@ -1,23 +1,26 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Carousel, Col, Container, Row } from "react-bootstrap";
+import SliderPubblicazioni from "./SliderPubblicazioni";
+import EffettoScrittura from "./EffettoScrittura";
 
 const AboutMePage = () => {
+  const text =
+    "Ciao, sono Aniello e ho la fortuna di fare il fotografo per passione e per professione. Non so immaginare la mia vita senza impugnare almeno una volta al giorno una delle mie fotocamere.";
   return (
     <>
       <div id="AboutMe" className="position-relative">
         <Row className="w-100 m-0">
           <Col className="col-12 vh-15 text-light d-flex align-items-end justify-content-center">
-            <span className="cursive fs-4 px-5 d-flex justify-content-center align-items-bottom">
-              {"''"}Ciao, sono Aniello
-              <br /> e ho la fortuna di fare il fotografo per passione e per
-              professione. Non so immaginare la mia vita senza impugnare almeno
-              una volta al giorno una delle mie fotocamere.
-              {"''"}
+            <span className="cursive-2 fs-4 px-5 d-flex justify-content-center align-items-bottom">
+              <EffettoScrittura text={text} speed={100} />
             </span>
           </Col>
           <Col className="bg-aniedd col-12 col-xl-6 text-white text-1 p-5"></Col>
 
-          <Col className="col-12 col-xl-6 text-light px-5 d-flex align-items-center justify-content-center small bg-light text-dark">
-            <Container className="p-5 text-1 small">
+          <Col
+            className="col-12 col-xl-6 text-light px-5 d-flex align-items-center justify-content-center small"
+            id="colchanging"
+          >
+            <Container className="p-5 text-1 small ls-1">
               {"''"} Ho scoperto la foto come forma naturale delle mie azioni e
               da quel momento, circa 20 anni, non faccio altro che cercare la
               moltitudine dei linguaggi che essa stessa suggerisce; mi emoziono
@@ -66,14 +69,57 @@ const AboutMePage = () => {
           </Col>
         </Row>
         <Row className=" bg-light py-3">
-          <Col className="col-5 p-5">
-            <div className="ratio ratio-16x9">
+          <Col className="mx-auto col-12 col-md-9 col-lg-5 col-xl-4 p-5">
+            <div className="w-100 h-100">
               <iframe
                 src="https://www.youtube.com/embed/Pku5yZWiTMQ"
                 title="Aniello Intartaglia B Roll handheld"
                 allowFullScreen
+                className="w-100"
+                height={"300px"}
               ></iframe>
             </div>
+          </Col>
+          <Col className="text-center col-12 col-lg-7 col-xl-8 p-5 text-1 fs-5">
+            Esposizioni e Riconoscimenti
+            <Carousel className="text-center">
+              <Carousel.Item>
+                <img
+                  className="w-100"
+                  src="https://placedog.net/940/310"
+                  alt="loremdog"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="w-100"
+                  src="https://placedog.net/945/310"
+                  alt="loremdog"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="w-100"
+                  src="https://placedog.net/950/310"
+                  alt="loremdog"
+                />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="w-100"
+                  src="https://placedog.net/955/310"
+                  alt="loremdog"
+                />
+              </Carousel.Item>
+            </Carousel>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="bg-light text-dark col-12 text-1 text-center text-light fs-4 pt-4 d-flex align-items-center justify-content-center">
+            Pubblicazioni e collaborazioni...
+          </Col>
+          <Col className="col-12">
+            <SliderPubblicazioni />
           </Col>
         </Row>
       </div>

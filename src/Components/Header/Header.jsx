@@ -3,10 +3,28 @@ import { Link } from "react-router-dom";
 import Logo from "./Logo";
 import { useDispatch, useSelector } from "react-redux";
 import { SetPageAction } from "../../Redux/Actions";
+import { useEffect, useState } from "react";
 
 const Header = () => {
+  const [hasPassedThreshold, setHasPassedThreshold] = useState(false);
+  const handleScroll = () => {
+    if (hasPassedThreshold === false && window.scrollY > 100) {
+      console.log("Puoi cambiare il componente ora!");
+      setHasPassedThreshold(true);
+    } else if (hasPassedThreshold === true && window.scrollY <= 100) {
+      console.log("puoi riportarl allo stato precedente");
+      setHasPassedThreshold(false);
+    }
+  };
   const dispatch = useDispatch();
   const PageVisited = useSelector((state) => state.Page.page);
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [hasPassedThreshold]);
   // useEffect(() => {
   //   console.log(PageVisited);
   //   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -14,7 +32,15 @@ const Header = () => {
   // //
   return (
     <>
-      <Navbar expand="lg" className="bg-white cursive p-0" id="MyHeader">
+      <Navbar
+        expand="lg"
+        className={
+          hasPassedThreshold === true
+            ? "changingNav1 transition-1 cursive p-0"
+            : "changingNav2 transition-1 cursive p-0"
+        }
+        id={hasPassedThreshold === true ? "MyHeader2" : "MyHeader"}
+      >
         <Container>
           <Link to={"/"} onClick={() => dispatch(SetPageAction("Home"))}>
             <div>

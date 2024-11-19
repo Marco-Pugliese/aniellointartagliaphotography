@@ -4,7 +4,16 @@
   padding: 15px 5px;
   top: 0px;
   left: 0px;
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.9);
+  z-index: 1111721;
+}
+#MyHeader2 {
+  position: sticky;
+  min-height: 10vh;
+  padding: 15px 5px;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.6);
   z-index: 1111721;
 }
 .selectedPage {
@@ -24,5 +33,35 @@
 @media screen and (min-width: 991px) {
   .m-variable {
     margin-left: auto;
+  }
+}
+.changingNav1 .nav-link {
+  color: #6b6d6c;
+}
+.changingNav2 .nav-link {
+  color: #919090;
+}
+.changingNav1 {
+  background: black;
+}
+.changingNav2 {
+  background: white;
+}
+.transition-1 {
+  transition: all 0.8s;
+}
+#Logo2 {
+  background: url(../../../public/assets/images/logo-AnielloIntartaglia-Inverted.png);
+  background-size: cover;
+}
+.animation-img {
+  animation: transition-img 0.8s linear both !important;
+}
+@keyframes transition-img {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
