@@ -23,7 +23,7 @@ const Logo = () => {
   return (
     <div>
       <img
-        src="../../../public/assets/images/logo-AnielloIntartaglia.jpg"
+        src="./assets/images/logo-AnielloIntartaglia.jpg"
         className={
           hasPassedThreshold === true
             ? "opacity-0 position-absolute transition-1 "
@@ -33,7 +33,7 @@ const Logo = () => {
       />
 
       <img
-        src="../../../public/assets/images/logo-AnielloIntartaglia-Inverted.png"
+        src="./assets/images/logo-AnielloIntartaglia-Inverted.png"
         className={
           hasPassedThreshold === true ? "opacity-1 " : "opacity-0 transition-1"
         }

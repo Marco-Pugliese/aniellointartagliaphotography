@@ -5,7 +5,7 @@ const Aside = () => {
     <>
       <div className="w-100 text-center fs-4 text-1"> Latest Events</div>
       <Container className="py-4">
-        <Row className="py-4 h-100 bg-info">
+        <Row className="py-4 h-100">
           <Col className=" col-12 col-lg-6 min-h-30vh">
             <div className="w-100 text-center cursive text-shadow mb-3">
               Nome Evento1

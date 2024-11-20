@@ -1,24 +1,32 @@
 #LandingPage {
   min-height: 90vh;
-  display: flex;
 }
-
+#makeItDarker {
+  min-height: 90vh;
+}
+#makeItDarker div {
+  background-size: cover;
+}
 .sizeH {
   height: 20vh;
 }
 .bg-foto1 {
   background: url(../../../public/assets/images/bgFoto-1.avif);
   background-position: center;
+  background-repeat: no-repeat;
 }
 .bg-foto2 {
   background: url(../../../public/assets/images/bgFoto-2.avif);
+  background-repeat: no-repeat;
   background-position: center;
 }
 .bg-foto3 {
   background: url(../../../public/assets/images/bgFoto-3.avif);
+  background-repeat: no-repeat;
   background-position: center;
 }
 .bg-foto4 {
+  background-repeat: no-repeat;
   background: url(../../../public/assets/images/bgFoto-4.avif);
 }
 .bg-foto1:hover,
