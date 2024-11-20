@@ -5,137 +5,145 @@ const Aside = () => {
     <>
       <div className="w-100 text-center fs-4 text-1"> Latest Events</div>
       <Container className="py-4">
-        <Row className="py-4">
-          <Col className="my-auto col-12 col-lg-6 py-4">
-            <div className="w-100 text-center cursive">Nome Evento1</div>
+        <Row className="py-4 h-100 bg-info">
+          <Col className=" col-12 col-lg-6 min-h-30vh">
+            <div className="w-100 text-center cursive text-shadow mb-3">
+              Nome Evento1
+            </div>
             <Carousel className="text-center">
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/900/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/500/400"
+                  alt="photo"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/910/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/550/400"
+                  alt="photo"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/920/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/600/400"
+                  alt="photo"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/930/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/650/400"
+                  alt="photo"
                 />
               </Carousel.Item>
             </Carousel>
           </Col>
-          <Col className="my-auto col-12 col-lg-6 py-4">
-            <div className="w-100 text-center cursive">Nome Evento2</div>
+          <Col className=" col-12 col-lg-6 min-h-30vh">
+            <div className="w-100 text-center cursive text-shadow mb-3">
+              Nome Evento2
+            </div>
 
             <Carousel className="text-center">
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/920/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/700/400"
+                  alt="photo"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/925/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/750/400"
+                  alt="photo"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/930/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/800/400"
+                  alt="photo"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/935/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/850/400"
+                  alt="photo"
                 />
               </Carousel.Item>
             </Carousel>
           </Col>
-          <Col className="my-auto col-12 col-lg-6 py-4">
-            <div className="w-100 text-center cursive">Nome Evento3</div>
+          <Col className=" col-12 col-lg-6 min-h-30vh">
+            <div className="w-100 text-center cursive text-shadow mb-3">
+              Nome Evento3
+            </div>
             <Carousel className="text-center">
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/940/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/900/400"
+                  alt="photo"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/945/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/950/400"
+                  alt="photo"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/950/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/835/400"
+                  alt="photo"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/955/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/525/400"
+                  alt="photo"
                 />
               </Carousel.Item>
             </Carousel>
           </Col>
-          <Col className="my-auto col-12 col-lg-6 py-4">
-            <div className="w-100 text-center cursive">Nome Evento4</div>
+          <Col className=" col-12 col-lg-6 min-h-30vh">
+            <div className="w-100 text-center cursive text-shadow mb-3">
+              Nome Evento4
+            </div>
 
             <Carousel className="text-center">
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/960/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/575/400"
+                  alt="photo"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/965/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/625/400"
+                  alt="photo"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/970/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/675/400"
+                  alt="photo"
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="w-100"
-                  src="https://placedog.net/975/800"
-                  alt="loremdog"
+                  className="w-100 rounded-4"
+                  src="https://picsum.photos/725/400"
+                  alt="photo"
                 />
               </Carousel.Item>
             </Carousel>

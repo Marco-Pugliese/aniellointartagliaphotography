@@ -46,3 +46,9 @@
     opacity: 1;
   }
 }
+.min-h-30vh {
+  min-height: 550px;
+}
+.min-h-30vh img {
+  height: 450px;
+}

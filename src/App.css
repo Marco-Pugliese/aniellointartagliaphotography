@@ -2,6 +2,7 @@
 @import "./Components/Header/Header.css";
 @import "./Components/LandingPage/LandingPage.css";
 @import "./Components/AboutMePage/AboutMe.css";
+@import "./Components/ClientsPage/Clients.css";
 @import "./animation.css";
 :root {
   /* FONTS */
